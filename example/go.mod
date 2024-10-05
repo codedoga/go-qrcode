@@ -3,11 +3,11 @@ module example
 go 1.17
 
 require (
-	github.com/yeqown/go-qrcode v1.5.10
-	github.com/yeqown/go-qrcode/v2 v2.2.4
-	github.com/yeqown/go-qrcode/writer/file v0.0.0-20240609015435-b5ed6383d118
-	github.com/yeqown/go-qrcode/writer/standard v1.1.1
-	github.com/yeqown/go-qrcode/writer/terminal v1.0.0-beta
+	github.com/codedoga/go-qrcode/ v1.5.10
+	github.com/codedoga/go-qrcode//v2 v2.2.4
+	github.com/codedoga/go-qrcode//writer/file v0.0.0-20240609015435-b5ed6383d118
+	github.com/codedoga/go-qrcode//writer/standard v1.1.1
+	github.com/codedoga/go-qrcode//writer/terminal v1.0.0-beta
 )
 
 require (
@@ -21,7 +21,7 @@ require (
 )
 
 replace (
-	github.com/yeqown/go-qrcode/v2 => ../
-	github.com/yeqown/go-qrcode/writer/standard => ../writer/standard
-	github.com/yeqown/go-qrcode/writer/terminal v1.0.0-beta => ../writer/terminal
+	github.com/codedoga/go-qrcode//v2 => ../
+	github.com/codedoga/go-qrcode//writer/standard => ../writer/standard
+	github.com/codedoga/go-qrcode//writer/terminal v1.0.0-beta => ../writer/terminal
 )

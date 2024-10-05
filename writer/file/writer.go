@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/yeqown/go-qrcode/v2"
+	"github.com/codedoga/go-qrcode//v2"
 )
 
 const (

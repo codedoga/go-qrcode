@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"syscall/js"
 
+	qrcode "github.com/codedoga/go-qrcode//v2"
+	stdw "github.com/codedoga/go-qrcode//writer/standard"
 	"github.com/pkg/errors"
-	qrcode "github.com/yeqown/go-qrcode/v2"
-	stdw "github.com/yeqown/go-qrcode/writer/standard"
 )
 
 func main() {
@@ -24,14 +24,15 @@ func main() {
 // content string which will be encoded to qrcode, the second one is the encoding
 // option, which is optional.
 //
-// let result = generateQRCode("content", {
-//   qrWidth: 200,
-//   qrMargin: 10,
-//   qrColor: "#000000",
-//   qrBackColor: "#ffffff",
-//   encLevel: "H",
-//   encVersion: 7,
-// })
+//	let result = generateQRCode("content", {
+//	  qrWidth: 200,
+//	  qrMargin: 10,
+//	  qrColor: "#000000",
+//	  qrBackColor: "#ffffff",
+//	  encLevel: "H",
+//	  encVersion: 7,
+//	})
+//
 // more options refer to the `genOption` struct
 func genqrcode(_ js.Value, args []js.Value) (v interface{}) {
 	var (

@@ -1,6 +1,6 @@
 ## Terminal
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/yeqown/go-qrcode/writer/terminal)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/codedoga/go-qrcode//writer/terminal)
 
 Terminal Writer is a writer that is used to draw QR Code image into terminal.
 
@@ -10,8 +10,8 @@ Terminal Writer is a writer that is used to draw QR Code image into terminal.
 package main
 
 import (
-	"github.com/yeqown/go-qrcode/v2"
-	"github.com/yeqown/go-qrcode/writer/terminal"
+	"github.com/codedoga/go-qrcode//v2"
+	"github.com/codedoga/go-qrcode//writer/terminal"
 )
 
 func main() {

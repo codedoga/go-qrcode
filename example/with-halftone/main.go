@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/yeqown/go-qrcode/v2"
-	"github.com/yeqown/go-qrcode/writer/standard"
+	"github.com/codedoga/go-qrcode//v2"
+	"github.com/codedoga/go-qrcode//writer/standard"
 )
 
 var (
@@ -14,7 +14,7 @@ var (
 func main() {
 	flag.Parse()
 
-	qrc, err := qrcode.New("https://github.com/yeqown/go-qrcode")
+	qrc, err := qrcode.New("https://github.com/codedoga/go-qrcode/")
 	if err != nil {
 		panic(err)
 	}
