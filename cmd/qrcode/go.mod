@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/pkg/errors v0.9.1
 	github.com/urfave/cli/v2 v2.3.0
-	github.com/codedoga/go-qrcode/v2 v2.2.2
+	github.com/codedoga/go-qrcode/v2 v2.9.9
 	github.com/codedoga/go-qrcode//writer/standard v1.2.0
 	github.com/codedoga/go-qrcode//writer/terminal v1.1.0
 )

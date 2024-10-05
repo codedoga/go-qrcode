@@ -1,4 +1,4 @@
-module github.com/codedoga/go-qrcode //writer/file
+module github.com/codedoga/go-qrcode/writer/file
 
 go 1.20
 
