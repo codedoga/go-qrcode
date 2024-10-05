@@ -1,4 +1,4 @@
-module github.com/codedoga/go-qrcode/writer/standard/v2
+module github.com/codedoga/go-qrcode/writer/standard
 
 go 1.17
 

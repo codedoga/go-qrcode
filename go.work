@@ -3,10 +3,12 @@ go 1.19
 use (
 	.
 	./.issues
+	./cmd/qrcode
+	./cmd/wasm
 	./writer/compressed
 	./writer/standard
 	./writer/terminal
-	./cmd/qrcode
-	./cmd/wasm
 	example
 )
+
+replace github.com/yeqown/go-qrcode/writer/standard => github.com/codedoga/go-qrcode/writer/standard v1.9.9
