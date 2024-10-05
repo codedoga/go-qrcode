@@ -10,17 +10,17 @@ var (
 )
 
 func main() {
-	qrc, err := qrcode.New("https://github.com/yeqown/go-qrcode")
+	qrc, err := qrcode.New("https://github.com/codedoga/go-qrcode/")
 	if err != nil {
 		panic(err)
 	}
-	
+
 	options := []standard.ImageOption{
 		standard.WithHalftone("./test.jpeg"),
 		standard.WithQRWidth(21),
 	}
 	filename := "./halftone-qr.png"
-	
+
 	if *transparent {
 		options = append(
 			options,
@@ -29,7 +29,7 @@ func main() {
 		)
 		filename = "./halftone-qr-transparent.png"
 	}
-	
+
 	w0, err := standard.New(filename, options...)
 	handleErr(err)
 	err = qrc.Save(w0)
