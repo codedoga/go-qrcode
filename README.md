@@ -1,7 +1,7 @@
 # go-qrcode
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/codedoga/go-qrcode/)](https://goreportcard.com/report/github.com/codedoga/go-qrcode/)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/codedoga/go-qrcode//v2)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/codedoga/go-qrcode/v2)
 [![Go](https://github.com/codedoga/go-qrcode//actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/codedoga/go-qrcode//actions/workflows/go.yml) ![](https://changkun.de/urlstat?mode=github&repo=yeqown/go-qrcode)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yeqown/go-qrcode)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/yeqown/go-qrcode)
@@ -25,7 +25,7 @@ QR code (abbreviated from Quick Response Code) is the trademark for a type of ma
 ### Install
 
 ```sh
-go get -u github.com/codedoga/go-qrcode//v2
+go get -u github.com/codedoga/go-qrcode/v2
 ```
 
 ### Quick Start
@@ -36,7 +36,7 @@ link to [CODE](./example/main.go)
 package main
 
 import (
-	"github.com/codedoga/go-qrcode//v2"
+	"github.com/codedoga/go-qrcode/v2"
 	"github.com/codedoga/go-qrcode//writer/standard"
 )
 
@@ -129,7 +129,7 @@ Of course, you can also code your own writer, just implement [Writer](./writer/R
 `go-qrcode.v2` is a major upgrade from v1, and it is not backward compatible. `v2` redesigned
 the API, and it is more flexible and powerful. Features are split into different modules (according to functionality).
 
-- github.com/codedoga/go-qrcode//v2 **_core_**
+- github.com/codedoga/go-qrcode/v2 **_core_**
 - github.com/codedoga/go-qrcode//writer/standard **_writer/imageFile_**
 - github.com/codedoga/go-qrcode//writer/terminal **_writer/terminal_**
 

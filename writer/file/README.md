@@ -10,7 +10,7 @@ File Writer is a writer used to draw QR Code images into files using the charact
 package main
 
 import (
-	"github.com/codedoga/go-qrcode//v2"
+	"github.com/codedoga/go-qrcode/v2"
 	"github.com/codedoga/go-qrcode//writer/file"
 )
 

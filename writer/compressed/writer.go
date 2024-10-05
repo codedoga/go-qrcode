@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/codedoga/go-qrcode//v2"
+	"github.com/codedoga/go-qrcode/v2"
 )
 
 type Option struct {

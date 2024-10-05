@@ -8,11 +8,11 @@ import (
 	"io"
 	"syscall/js"
 
-	"github.com/codedoga/go-qrcode//v2"
 	stdw "github.com/codedoga/go-qrcode//writer/standard"
+	"github.com/codedoga/go-qrcode/v2"
 )
 
-// encodeOption refers to github.com/codedoga/go-qrcode//v2.encodingOption
+// encodeOption refers to github.com/codedoga/go-qrcode/v2.encodingOption
 type encodeOption struct {
 	version int    // encodeVersion
 	mode    uint8  // encodeMode specifies which encMode to use (0/1/2/3).

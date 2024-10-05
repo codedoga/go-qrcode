@@ -10,7 +10,7 @@ Terminal Writer is a writer that is used to draw QR Code image into terminal.
 package main
 
 import (
-	"github.com/codedoga/go-qrcode//v2"
+	"github.com/codedoga/go-qrcode/v2"
 	"github.com/codedoga/go-qrcode//writer/terminal"
 )
 
