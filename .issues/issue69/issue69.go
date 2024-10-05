@@ -16,8 +16,8 @@ import (
 
 	skip2 "github.com/skip2/go-qrcode"
 
-	yeqown "github.com/codedoga/go-qrcode//v2"
 	yeqownwstd "github.com/codedoga/go-qrcode//writer/compressed"
+	yeqown "github.com/codedoga/go-qrcode/v2"
 )
 
 /*

@@ -1,8 +1,8 @@
 package main
 
 import (
-	qrv2 "github.com/codedoga/go-qrcode//v2"
 	"github.com/codedoga/go-qrcode//writer/standard"
+	qrv2 "github.com/codedoga/go-qrcode/v2"
 
 	qrv1 "github.com/codedoga/go-qrcode/"
 )

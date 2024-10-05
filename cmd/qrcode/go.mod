@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/pkg/errors v0.9.1
 	github.com/urfave/cli/v2 v2.3.0
-	github.com/codedoga/go-qrcode//v2 v2.2.2
+	github.com/codedoga/go-qrcode/v2 v2.2.2
 	github.com/codedoga/go-qrcode//writer/standard v1.2.0
 	github.com/codedoga/go-qrcode//writer/terminal v1.1.0
 )
@@ -23,6 +23,6 @@ require (
 )
 
 //replace (
-//    github.com/codedoga/go-qrcode//v2 v2.0.1 => ../../
+//    github.com/codedoga/go-qrcode/v2 v2.0.1 => ../../
 //    github.com/codedoga/go-qrcode//writer/standard v1.0.0 => ../../writer/standard
 //)

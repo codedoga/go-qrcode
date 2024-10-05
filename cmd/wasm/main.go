@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"syscall/js"
 
-	qrcode "github.com/codedoga/go-qrcode//v2"
 	stdw "github.com/codedoga/go-qrcode//writer/standard"
+	qrcode "github.com/codedoga/go-qrcode/v2"
 	"github.com/pkg/errors"
 )
 
